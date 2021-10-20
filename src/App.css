@@ -1,0 +1,93 @@
+html,
+body,
+#root {
+  height: 100%;
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+color: white;
+font-weight: 400;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  color: #c777b9;
+}
+.App .text-white, .qu{
+  color: #faddee;
+}
+.App .card {
+  max-width: 400px;
+  width: 500px;
+  text-align: center;
+  color: white;
+  border-radius: 25px;
+  background-image: linear-gradient(to left bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8);
+  
+}
+label.radio {
+  display: block;
+  text-align: left;
+  padding: 15px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  background-image: linear-gradient(to bottom right, #b541a08a, #aa8fd8ad, #9a9ae112, #8aa7ec);
+}
+
+label.radio+.radio {
+  margin-left: 0;
+}
+
+label.radio input {
+  margin-right: 10px;
+}
+#btn{
+  background-color:#c976b7;
+  font-weight: 400;
+  color: #fff;
+}
+#btn:hover{
+  background-color:#92a1e7f8 ;
+}
+#rs{
+  color: #fff;
+}
+#btn2{
+  background-color:#69bff8;
+  font-weight: 400;
+  color: #fff;
+}
+#btn2:hover{
+  background-color:#aa8fd8  ;
+}
+#model{
+  background-image: linear-gradient(to bottom right, #c777b9, #aa8fd8, #9a9ae1, #8aa7ec);
+  color: #ffffff;
+}
+.modal-background{
+  background-color: black;
+}
+#ans{
+  color: cadetblue;
+}
+/* .ch{
+  background-color: #3636769e;
+} */
+.ans-dn{
+background-color: #f1466857;
+}
+.plink{
+  background-color: #0061fb73;
+}
+.pgreen{
+  background-color: #48c77487;
+}
+#cl{
+  color: #dfdfdf;
+}
+input{
+  background-image: linear-gradient(to bottom right, #c777b9, #aa8fd8, #9a9ae1, #8aa7ec);
+}
